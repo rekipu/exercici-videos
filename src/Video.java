@@ -10,5 +10,7 @@ public class Video {
 		this.title = title;
 		this.url = url;
 		this.tags = tags;
-	}
+	}	
+	
+	
 }
