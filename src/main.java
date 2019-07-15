@@ -19,7 +19,7 @@ public class main {
 	public static String notNull(String y) {
 		System.out.println(y);
 		String x = scanner.nextLine();
-		if (x == "") {
+		if (x.equals("") || x.equals(null)) {
 			System.out.println("no pots deixar el camp buit");
 			throw new NullPointerException();
 
